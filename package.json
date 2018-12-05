@@ -1,0 +1,23 @@
+{
+  "name": "autoapp",
+  "version": "1.0.0",
+  "description": "By Chaochao Li and Lia Vernaet",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janeandjack/AutoApp.git"
+  },
+  "author": "Chaochao Li, Lia Vernaet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/janeandjack/AutoApp/issues"
+  },
+  "homepage": "https://github.com/janeandjack/AutoApp#readme"
+}
