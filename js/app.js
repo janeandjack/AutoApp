@@ -1,3 +1,5 @@
+(() => {
+
 $(document).foundation()
 
 function getData(){
@@ -11,3 +13,15 @@ function getData(){
         console.log(error);
     });
 }
+$(function() {
+    $(window).scroll(function() {
+      var winTop = $(window).scrollTop();
+      if (winTop >= 30) {
+        $("body").addClass("sticky-shrinknav-wrapper");
+      } else{
+        $("body").removeClass("sticky-shrinknav-wrapper");
+      }
+    });
+  });
+
+})();

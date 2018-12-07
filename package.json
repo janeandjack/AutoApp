@@ -1,7 +1,7 @@
 {
   "name": "autoapp",
   "version": "1.0.0",
-  "description": "By Chaochao Li and Lia Vernaet",
+  "description": "Use Cinema 4D to build a car Moduels and use php and mySQL fetch car moduels from database.\r And display car moduels video in html. Start with a splash page with a “hero shot”. Build start in the mobile view, and develop in desktop view",
   "main": "gulpfile.js",
   "dependencies": {
     "gulp": "^3.9.1"
