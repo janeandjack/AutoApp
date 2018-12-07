@@ -3,12 +3,12 @@ include 'connect.php';
 
 
 
-$photo_query = 'SELECT * FROM `project_list`';
+$car_content = 'SELECT * FROM `car_moduels`';
 
-$getImg = $pdo -> query($photo_query);
+$getcar_type = $pdo -> query($car_content);
 
 $results = array();
-while($row = $getImg -> fetch(PDO::FETCH_ASSOC)){
+while($row = $getcar_type -> fetch(PDO::FETCH_ASSOC)){
 
     $results[] = $row; 
 }
