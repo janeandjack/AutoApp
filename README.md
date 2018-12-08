@@ -1,6 +1,8 @@
 # AutoApp
 Use Cinema 4D to build a car Moduels and use php and mySQL fetch car moduels from database.
-And display car moduels video in html. Start with a splash page with a “hero shot”. Build start in the mobile view, and develop in desktop view
+And display car moduels video in html. Start with a splash page with a “hero shot”. Build start in the mobile view, and develop in desktop view.
+
+User can select car moduel and Autoapp will display car information in 3D moduels. Every parts of car will display in specific details.
 
 ## Getting Started
 
